@@ -89,7 +89,7 @@ li {
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
-    background-color: #ffffff;
+    background-color: #e0e4f6;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -152,7 +152,7 @@ li {
 }
 
 .top-image {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /*Text Container*/
@@ -258,7 +258,7 @@ li {
     color: #FF8D0D;
 }
 
-/* Footer css */
+/* Footer */
 html,
 body {
     margin: 0;
@@ -344,7 +344,19 @@ body {
     .text-container {
         width: 100%;
     }
+
+    .images {
+        display: block;
+    }
+
+    .mobile-width {
+        min-width: 100%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
 
 @media only screen and (max-width: 968px) {
     .list-box-container {
@@ -433,18 +445,19 @@ body {
         /* Footer */
     }
 }
+
 .copyright {
     margin-left: 40%;
     padding-top: 2%;
-  }  
-  
-  furry-friends_link {
+}
+
+furry-friends_link {
     font-size: 14px;
-  }
-  
-  @media only screen and (max-width: 968px) {
+}
+
+@media only screen and (max-width: 968px) {
     .copyright {
-      display: flex;
-      flex-direction: column;
-    }  
-  }
+        display: flex;
+        flex-direction: column;
+    }
+}
